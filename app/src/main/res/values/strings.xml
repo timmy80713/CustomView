@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CustomView</string>
+
+    <string name="uri_client_scheme">content</string>
+    <string name="uri_client_host">com.timmy.codelab.customview</string>
+
+    <string name="action_present">com.timmy.codelab.customview.present</string>
 </resources>
