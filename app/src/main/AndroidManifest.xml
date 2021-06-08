@@ -16,6 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".demo.CircleLoadingViewActivity">
+            <intent-filter>
+                <data
+                    android:host="@string/uri_client_host"
+                    android:path="/CircleLoadingView"
+                    android:scheme="@string/uri_client_scheme" />
+
+                <action android:name="com.timmy.codelab.customview.present" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

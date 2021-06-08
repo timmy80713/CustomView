@@ -42,6 +42,7 @@ class LobbyActivity : AppCompatActivity() {
 
     private fun generateDemo() {
         val demos = mutableListOf<Demo>().apply {
+            add(Demo("CircleLoadingView", getString(R.string.uri_client_path_circle_loading_view)))
         }
         demoAdapter.setData(demos)
     }

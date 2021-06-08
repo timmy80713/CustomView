@@ -3,6 +3,7 @@
 
     <string name="uri_client_scheme">content</string>
     <string name="uri_client_host">com.timmy.codelab.customview</string>
+    <string name="uri_client_path_circle_loading_view">/CircleLoadingView</string>
 
     <string name="action_present">com.timmy.codelab.customview.present</string>
 </resources>
